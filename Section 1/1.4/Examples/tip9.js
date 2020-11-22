@@ -1,3 +1,16 @@
+// reduce number of argument
+// before
+// function draw(element, width, height, backgroundColor, color, margin, padding) {
+//   element.style.width = config.width;
+//   element.style.height = config.height;
+//   element.style.backgroundColor = config.backgroundColor;
+//   element.style.color = config.color;
+//   //Do something else to draw the shape
+//   //.......
+//   //.......
+//   return element;
+// }
+
 function draw(element, config) {
     element.style.width = config.width;
     element.style.height = config.height;

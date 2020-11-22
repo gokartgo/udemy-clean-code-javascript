@@ -1,3 +1,4 @@
+// avoid call back
 function getSensorAData(cb) {
     setTimeout(() => {
         cb({

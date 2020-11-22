@@ -1,3 +1,4 @@
+// avoid flags
 let toDos = [
     {
         task: 'Get some eggs',

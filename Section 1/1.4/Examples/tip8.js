@@ -1,3 +1,4 @@
+// single responsibility
 var products = [
     {
         name: 'CPU',
@@ -20,6 +21,26 @@ var products = [
         bought: false
     }
 ];
+
+// before
+// function prepareData(items) {
+//   for(let i=0; i<items.length; i++) {
+//       items[i].id = i+1;
+//   }
+
+//   let boughtItems = [];
+//   for(let i=0; i<items.length; i++) {
+//       if(items[i].bought) {
+//           boughtItems.push(items[i]);
+//       }
+//   }
+
+//   let totalCost = 0;
+//   for(let i=0; i<items.length; i++) {
+//       totalCost += items[i].price;
+//   }
+//   console.log(`Total Cost: ${totalCost}`);
+// }
 
 function prepareData(items) {
     addIds(items);
