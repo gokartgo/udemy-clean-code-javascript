@@ -1,16 +1,18 @@
 let numbers = [
     2, 9, 8, 7, 6
 ];
-
+let sum = []
 //Task: Iterate all numbers
 //If a number is even -> take its half and sum it
 //If a number is odd -> sum it
 function numbersSum(numbers) {
     return numbers.reduce((accumulator, current) => {
         if(isEven(current)) {
+          sum.push(accumulator + current / 2)
             return accumulator + current / 2;
         }
         else {
+          sum.push(accumulator + current)
             return accumulator + current;
         }
     }, 0);
@@ -34,4 +36,5 @@ function isEven(num) {
 }
 
 console.log(numbersSum(numbers));
+console.log(sum)
 

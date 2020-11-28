@@ -1,3 +1,21 @@
+// side effect because we send variable that be object the object is pointer
+// let readings = {
+//   coreTemp: 74,
+//   additionalTemp: 80,
+//   readingA: 178,
+//   readingB: 120,
+//   readingC: -190
+// }
+
+// function adjustReadings(readings) {
+//   readings.readingA -= 20;
+//   readings.readingB += readings.coreTemp/2;
+// }
+
+// console.log("Readings before: ", readings);
+// adjustReadings(Object.assign({}, readings));
+// console.log("Readings after: ", readings);
+
 let readings = {
     coreTemp: 74,
     additionalTemp: 80,

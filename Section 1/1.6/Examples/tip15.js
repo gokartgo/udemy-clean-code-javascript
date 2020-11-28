@@ -1,5 +1,5 @@
 "use strict"
-
+// Use Object.freeze instead const
 const config = {
     fbApiKey: 'snfa9f7yh43f30j03t4hg34',
     googleApiKey: '4jhu954htgh39g343g',
