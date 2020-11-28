@@ -12,3 +12,4 @@ function test() {
 
 test.call(obj);
 test.apply(obj);
+// call and apply is same work but different pass argument

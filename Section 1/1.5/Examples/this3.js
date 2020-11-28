@@ -18,3 +18,4 @@ function callMeLater(cb) {
 }
 
 callMeLater(test.bind(obj));
+// just bind object but not call immediatly we will call function by self
