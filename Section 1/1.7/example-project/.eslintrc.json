@@ -3,6 +3,7 @@
         "browser": true,
         "es6": true
     },
+    "extends": "eslint:recommended",
     "parserOptions": {
         "sourceType": "module"
     },
@@ -13,21 +14,21 @@
         ],
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
         "quotes": [
             "error",
-            "double"
+            "single"
         ],
         "semi": [
             "error",
-            "always"
+            "never"
         ],
         "no-console": [
-            "warn"
+          "warn"
         ],
         "no-var": [
-            "error"
+          "error"
         ]
     }
 }
