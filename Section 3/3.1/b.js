@@ -1,7 +1,7 @@
 class B {
-    doThing() {
-        console.log("B.doThing");
-    }
+  doThing() {
+    console.log("B.doThing");
+  }
 }
 var b = new B();
 b.doThing();
